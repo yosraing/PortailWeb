@@ -1,0 +1,137 @@
+
+html {
+ 
+
+ 
+ 
+}
+html *,
+html *:before,
+html *:after {
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+
+a {
+  text-decoration: none;
+  line-height: 40px;
+  color: black;
+}
+
+
+
+
+
+
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+  height: 60%;
+  max-width: 250px;
+  text-transform: uppercase;
+  overflow: hidden;
+  border: 1px solid currentColor;
+}
+
+
+.btn-7 {
+    text-align: center;
+   margin-left: 80%;
+  margin-top: 90px;
+  float: left;
+  color: #A95858;
+}
+.btn-7:before, .btn-7:after,
+.btn-7 span:before,
+.btn-7 span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 63.5px;
+  height: 0;
+  background: #A95858;
+}
+.btn-7:before {
+  left: 0;
+}
+.btn-7:after {
+  left: 125px;
+}
+.btn-7 span:before, .btn-7 span:after {
+  top: auto;
+  bottom: 0;
+}
+.btn-7 span:before {
+  left: 62.5px;
+}
+.btn-7 span:after {
+  left: 187.5px;
+}
+.btn-7:hover {
+  color: #d1c4c0;
+}
+.btn-7:hover:before, .btn-7:hover:after,
+.btn-7:hover span:before,
+.btn-7:hover span:after {
+  height: 80px;
+}
+.btn-7:active {
+  background: #471101;
+}
+/* modifier*/
+.btn-mod{
+    text-align: center;
+
+  color: #A95858;
+}
+.btn-mod:before, .btn-mod:after,
+.btn-mod span:before,
+.btn-mod span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 63.5px;
+  height: 0;
+  background: #A95858;
+}
+.btn-mod:before {
+  left: 0;
+}
+.btn-mod:after {
+  left: 125px;
+}
+.btn-mod span:before, .btn-mod span:after {
+  top: auto;
+  bottom: 0;
+}
+.btn-mod span:before {
+  left: 62.5px;
+}
+.btn-mod span:after {
+  left: 187.5px;
+}
+.btn-mod:hover {
+  color: #d1c4c0;
+}
+.btn-mod:hover:before, .btn-mod:hover:after,
+.btn-mod:hover span:before,
+.btn-mod:hover span:after {
+  height: 80px;
+}
+.btn-mod:active {
+  background: #471101;
+}
+
+

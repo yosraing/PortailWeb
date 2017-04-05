@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.rating span').click(function() {
+alert("ok");
+  var $nbr = $(this).attr('id');
+  alert($nbr);
+})})
+</script>
+</head>
+<body>
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+<style type="text/css">
+.rating {
+    float: left;
+}
+.rating span {
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+}
+
+.rating span:hover, .rating span:hover ~ span{
+    color: red;
+}
+</style>
+<body>
+<div class="rating">
+  <span id="5" class="glyphicon glyphicon-star"></span>
+  <span id="4" class="glyphicon glyphicon-star"></span>
+  <span id="3" class="glyphicon glyphicon-star"></span>
+  <span id="2" class="glyphicon glyphicon-star"></span>
+  <span id="1" class="glyphicon glyphicon-star"></span>
+</div>
+
+</body>
+</html>
